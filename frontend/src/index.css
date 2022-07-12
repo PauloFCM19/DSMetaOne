@@ -141,15 +141,17 @@ header {
     cursor: pointer;
 }
 
+.dsmeta-red-btn img {
+  width: 19px;
+
+}
+
 .dsmeta-red-btn-conteiner {
     display: flex;
     justify-content: center;
 }
 
-.dsmeta-red-btn img {
-    width: 19px;
 
-}
 
 .show576{
     display: none;
