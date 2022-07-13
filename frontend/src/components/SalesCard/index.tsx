@@ -1,5 +1,7 @@
 import NotificationButton from "../NotificationButton"
 import './styles.css'
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 
 function SalesCard() {
@@ -9,10 +11,20 @@ function SalesCard() {
             <h2>Relatório De Vendas</h2>
             <div>
                 <div className="dsmeta-form-control-conteiner">
-                    <input className="dsmeta-form-control" type="text"/>
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="dsmeta-form-control"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
                 <div className="dsmeta-form-control-conteiner">
-                    <input className="dsmeta-form-control" type="text"/>
+                    <DatePicker
+                        selected={new Date()}
+                        onChange={(date: Date) => { }}
+                        className="dsmeta-form-control"
+                        dateFormat="dd/MM/yyyy"
+                    />
                 </div>
             </div>
             <div>
@@ -38,7 +50,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -52,7 +64,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -66,7 +78,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -80,7 +92,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -94,7 +106,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -108,7 +120,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
@@ -122,7 +134,7 @@ function SalesCard() {
                             <td className="show992">11</td>
                             <td>
                                 <div className="dsmeta-red-btn-conteiner">
-                                    <NotificationButton/>
+                                    <NotificationButton />
                                 </div>
                             </td>
                         </tr>
